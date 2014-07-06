@@ -1,0 +1,77 @@
+body {
+  webkit-appearance: none;
+  moz-appearance: none;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #DDDDDD;
+  text-align: right;
+  width: 960px;
+}
+#searchform {
+  width: 960px;
+  margin 0 auto;
+}
+
+#google {
+  margin: 0 auto;
+  width: 640px;
+}
+
+img {
+  padding-top: 30px;
+  padding-left: 170px;
+  padding-right: 170px;
+  padding-bottom: 20px;
+  width: 300px;
+}
+
+#searchbar {
+  width: 100%;
+}
+
+#button_div {
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+#search, #lucky {
+  border: solid 1px black;
+  width: 130px;
+  display: inline;
+  padding: 5px;
+  margin: 10px 10px;
+  background-color: #EEEEEE;
+  border-color: #333333;
+  border-radius: 3px;
+}
+
+input[type=submit] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -appearance: none;
+  background-color: green;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  
+}
+
+.button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -appearance: none;
+  background-color: white;
+  box-shadow: none;
+  outline: none;
+}
+
+footer {
+  border solid 1px red;
+  width: 100%
+}
